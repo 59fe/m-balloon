@@ -1,0 +1,41 @@
+{
+  "name": "m-balloon",
+  "version": "1.0.0",
+  "description": "m-balloon - simulate 'title' pop layer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/59fe/m-balloon.git"
+  },
+  "homepage": "https://github.com/59fe/m-balloon",
+  "author": {
+    "name": "半边",
+    "email": "itaofe@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "半边",
+      "email": "itaofe@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/59fe/m-balloon/issues"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "react": "~15.2.0",
+    "react-dom": "~15.2.0",
+    "m-base": "^1.0.0",
+    "r-trigger": "^1.0.1",
+    "classnames": "~2.2.3"
+  },
+  "keywords": [
+    "balloon",
+    "react",
+    "mobile"
+  ],
+  "license": "Apache-2.0"
+}
