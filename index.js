@@ -182,7 +182,7 @@ var Balloon = function (_React$Component) {
             // 将当前元素将到此位置
             var handler = _reactDom2.default.findDOMNode(this.refs.handlerRef);
             var origin = {
-                left: handler.offsetLeft, top: handler.offsetTop,
+                left: handler.offsetLeft, top: handler.offsetTop - document.querySelector('.m-base-window').scrollTop,
                 width: handler.offsetWidth, height: handler.offsetHeight
             };
             var box = {
