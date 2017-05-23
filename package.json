@@ -1,6 +1,6 @@
 {
   "name": "m-balloon",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "m-balloon - simulate 'title' pop layer",
   "main": "index.js",
   "scripts": {
