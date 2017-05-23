@@ -268,13 +268,13 @@ var Balloon = function (_React$Component) {
 Balloon.propTypes = {
 
     // balloon的内容,可以是一个字符串,也可以是任意的html内容
-    content: _PropTypes2.oneOfType([_PropTypes2.object, _PropTypes2.string]).isRequired,
+    content: _PropTypes2.default.oneOfType([_PropTypes2.object, _PropTypes2.string]).isRequired,
 
     // balloon的展示位置
-    placement: _PropTypes2.oneOf(['top', 'bottom', 'left', 'right', 'topLeft', 'topRight', 'bottomLeft', 'bottomRight', 'leftTop', 'rightTop', 'leftBottom', 'rightBottom']),
+    placement: _PropTypes2.default.oneOf(['top', 'bottom', 'left', 'right', 'topLeft', 'topRight', 'bottomLeft', 'bottomRight', 'leftTop', 'rightTop', 'leftBottom', 'rightBottom']),
     // 提供让调用容器直接改变显隐的属性
-    visible: _PropTypes2.bool,
-    onVisibleChange: _PropTypes2.func
+    visible: _PropTypes2.default.bool,
+    onVisibleChange: _PropTypes2.default.func
 };
 
 Balloon.defaultProps = {
