@@ -15,6 +15,10 @@ var _reactDom = require('react-dom');
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+var _PropTypes = require('prop-types');
+
+var _PropTypes2 = _interopRequireDefault(_PropTypes);
+
 var _classnames = require('classnames');
 
 var _classnames2 = _interopRequireDefault(_classnames);
@@ -264,13 +268,13 @@ var Balloon = function (_React$Component) {
 Balloon.propTypes = {
 
     // balloon的内容,可以是一个字符串,也可以是任意的html内容
-    content: _react.PropTypes.oneOfType([_react.PropTypes.object, _react.PropTypes.string]).isRequired,
+    content: _PropTypes2.oneOfType([_PropTypes2.object, _PropTypes2.string]).isRequired,
 
     // balloon的展示位置
-    placement: _react.PropTypes.oneOf(['top', 'bottom', 'left', 'right', 'topLeft', 'topRight', 'bottomLeft', 'bottomRight', 'leftTop', 'rightTop', 'leftBottom', 'rightBottom']),
+    placement: _PropTypes2.oneOf(['top', 'bottom', 'left', 'right', 'topLeft', 'topRight', 'bottomLeft', 'bottomRight', 'leftTop', 'rightTop', 'leftBottom', 'rightBottom']),
     // 提供让调用容器直接改变显隐的属性
-    visible: _react.PropTypes.bool,
-    onVisibleChange: _react.PropTypes.func
+    visible: _PropTypes2.bool,
+    onVisibleChange: _PropTypes2.func
 };
 
 Balloon.defaultProps = {

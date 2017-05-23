@@ -26,11 +26,12 @@
   },
   "readmeFilename": "README.md",
   "dependencies": {
-    "react": "~15.2.0",
-    "react-dom": "~15.2.0",
+    "classnames": "~2.2.3",
     "m-base": "^1.0.0",
+    "prop-types": "^15.5.8",
     "r-trigger": "^1.0.1",
-    "classnames": "~2.2.3"
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
   "keywords": [
     "balloon",
